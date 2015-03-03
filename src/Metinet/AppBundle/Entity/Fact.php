@@ -10,6 +10,7 @@ namespace Metinet\AppBundle\Entity;
 
 class Fact {
 
+    protected $id;
     protected $number;
     protected $summary;
 

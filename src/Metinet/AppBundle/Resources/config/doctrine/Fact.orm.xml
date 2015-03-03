@@ -8,8 +8,7 @@
         <id name="id" type="integer" column="id">
             <generator strategy="AUTO" />
         </id>
-        <field name="number" column="number" type="decimal" length="100" />
-        <field name="price" column="price" type="decimal" scale="2" />
-        <field name="description" column="description" type="text" />
+        <field name="number" column="number" type="decimal" scale="2" />
+        <field name="summary" column="summary" type="text" />
     </entity>
 </doctrine-mapping>
